@@ -9,6 +9,7 @@ import { PageNotFoundComponent } from './component/page-not-found/page-not-found
 import { PostsListsComponent } from './component/posts-lists/posts-lists.component';
 import { PostsItemComponent } from './component/posts-item/posts-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PostsShowComponent } from './component/posts-show/posts-show.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     PageNotFoundComponent,
     PostsListsComponent,
-    PostsItemComponent
+    PostsItemComponent,
+    PostsShowComponent
   ],
   imports: [
     BrowserModule,

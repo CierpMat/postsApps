@@ -4,6 +4,7 @@ import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { PostsListsComponent } from './component/posts-lists/posts-lists.component';
+import { PostsShowComponent } from './component/posts-show/posts-show.component';
 
 const routes: Routes = [
   {
@@ -22,6 +23,10 @@ const routes: Routes = [
   {
     path: 'posts',
     component: PostsListsComponent
+  },
+  {
+    path:'posts/:id',
+    component: PostsShowComponent
   },
   {
     path: '**',
